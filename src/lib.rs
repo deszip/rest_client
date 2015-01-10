@@ -5,7 +5,7 @@ extern crate url;
 
 use hyper::Url;
 use hyper::client::Request;
-use hyper::method::{Get, Post, Delete, Put, Patch};
+use hyper::Method::{Get, Post, Delete, Put, Patch};
 
 use std::fmt::{mod, Show};
 use std::io::IoError;
